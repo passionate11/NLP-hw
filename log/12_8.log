@@ -1,0 +1,5 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/extra/changkaiyan/hpc/nlp-course/final_hw/annotated_transformer/real_example.py", line 34, in <module>
+    from model_training import greedy_decode, train_model
+ImportError: cannot import name 'train_model' from 'model_training' (/extra/changkaiyan/hpc/nlp-course/final_hw/annotated_transformer/model_training.py)

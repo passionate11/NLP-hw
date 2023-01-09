@@ -1,0 +1,38 @@
+nohup: ignoring input
+Finished.
+Vocabulary sizes:
+8315
+6384
+Preparing Data ...
+Loading Trained Model ...
+Checking Model Outputs:
+
+Example 0 ========
+
+Source Text (Input)        : <s> Zwei Jungen innerhalb eines <unk> springen in die Luft und halten dabei einen Basketball . </s>
+Target Text (Ground Truth) : <s> Two boys inside a fence jump in the air while holding a basketball . </s>
+Model Output               : <s> Two boys are jumping a basketball in the air while holding a basketball hoop . </s>
+
+Example 1 ========
+
+Source Text (Input)        : <s> Ein kleines rothaariges Mädchen in einem <unk> reitet auf einem Spielzeugpferd . </s>
+Target Text (Ground Truth) : <s> A little redheaded girl wears a Spider - Man suit while riding a play horse . </s>
+Model Output               : <s> A red - haired girl is riding a toy horse in a red and white outfit . </s>
+
+Example 2 ========
+
+Source Text (Input)        : <s> Ein Mädchen führt seinen Hund über eine Hürde . </s>
+Target Text (Ground Truth) : <s> A girl leads her dog over a hurdle . </s>
+Model Output               : <s> A girl is walking his dog over a hurdle . </s>
+
+Example 3 ========
+
+Source Text (Input)        : <s> Das kleine Mädchen mit dem grünen Halsband rennt weg vom Netz . </s>
+Target Text (Ground Truth) : <s> The little girl with the green necklace is running away from the net . </s>
+Model Output               : <s> The little girl in the green collar is running away from the net . </s>
+
+Example 4 ========
+
+Source Text (Input)        : <s> Eine Frau mit schwarzem Haar , schwarzem Oberteil und einem roten Rock <unk> jemandem mit der Faust . </s>
+Target Text (Ground Truth) : <s> A woman with black hair , wearing a black top and a red skirt is shaking her fist at somebody . </s>
+Model Output               : <s> A woman with black hair , black shirt and a red skirt , with someone in the middle of her hand . </s>
